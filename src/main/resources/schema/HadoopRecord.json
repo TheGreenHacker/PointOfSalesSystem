@@ -1,0 +1,21 @@
+{
+  "type": "object",
+  "javaType": "com.jack.li.kafka.projects.types.HadoopRecord",
+  "properties": {
+    "InvoiceNumber": {"type": "integer"},
+    "CreatedTime": {"type": "object", "javaType": "java.lang.Long"},
+    "StoreID": {"type": "string"},
+    "PosID": {"type": "string"},
+    "CustomerType": {"type": "string"},
+    "PaymentMethod": {"type": "string"},
+    "DeliveryType": {"type": "string"},
+    "City": {"type": "string"},
+    "State": {"type": "string"},
+    "PinCode": {"type": "string"},
+    "ItemCode": {"type": "string"},
+    "Description": {"type": "string"},
+    "Price": {"type": "number"},
+    "Quantity": {"type": "integer"},
+    "TotalValue": {"type": "number"}
+  }
+}

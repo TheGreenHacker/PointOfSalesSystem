@@ -1,0 +1,11 @@
+{
+  "type": "object",
+  "javaType": "com.jack.li.kafka.projects.types.LineItem",
+  "properties": {
+    "ItemCode": {"type": "string"},
+    "Description": {"type": "string"},
+    "Price": {"type": "number"},
+    "Quantity": {"type": "integer"},
+    "TotalValue": {"type": "number"}
+  }
+}

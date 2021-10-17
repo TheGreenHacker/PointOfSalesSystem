@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "javaType": "com.jack.li.kafka.projects.types.Loyalty",
+  "properties": {
+    "InvoiceNumber": {"type": "integer"},
+    "CustomerCardNumber": {"type": "string"},
+    "TotalAmount": {"type": "number"},
+    "EarnedLoyaltyPoints": {"type": "integer"}
+  }
+}
